@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.page1{
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    overflow: hidden;
+   
+    color: white;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 5rem;
+    /* background-color: #212121; */
+    color: white;
+}
+
+.right{
+    display: flex;
+    gap: 2rem;
+    
+}
+
+.right a{
+    color: aliceblue;
+}
+
+
+.page1 .active{
+    color: #FEBE35;
+}
+
+.batman{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4.7rem;
+    margin-top: 5rem;
+}
+
+.batmanL{
+    margin-top: 4rem;
+    font-size: larger;
+}
+
+.batmanR img{
+    height: 90%;
+    
+}
+
+.icons {
+    display: flex;
+    gap: 1.3rem;
+    margin-top: 1.5rem;
+}
+
+.icons i {
+    font-size: 1.5rem;
+    padding: .7rem;
+    border: 1.5px solid #FEBE35;
+    border-radius: 50%;
+}
